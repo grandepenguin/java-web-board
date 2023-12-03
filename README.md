@@ -38,3 +38,4 @@ bootstrap.min.css 라이브러리는 `src/main/webapp/css` 폴더에 위치합�
 서비스 이름: xe  
 사용자명: board  
 패스워드: 1234  
+권한 : connect, resource  
