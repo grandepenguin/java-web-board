@@ -10,6 +10,7 @@
 - **Java:** 서버 측 로직 처리
 - **JavaScript:** 클라이언트 측 동적 동작 및 상호 작용
 - **CSS (Cascading Style Sheets):** 스타일 및 레이아웃 정의
+- **Oracle:** 데이터베이스
 
 ### 개발 환경
 
