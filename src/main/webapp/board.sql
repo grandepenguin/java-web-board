@@ -1,6 +1,6 @@
-/*게시판 테이블*/
+/*게시글 테이블*/
 CREATE TABLE board(
-num NUMBER PRIMARY KEY,/*게시판 번호*/
+num NUMBER PRIMARY KEY,/*게시글 번호*/
 writer NVARCHAR2(20) NOT NULL,/*작성자*/
 pw VARCHAR2(20) NOT NULL,/*비밀번호*/
 title NVARCHAR2(40) NOT NULL,/*제목*/
@@ -16,7 +16,8 @@ CREATE INDEX ix_board_num ON board (num DESC);
 
 
 /*오라클은 여러 인덱스를 가진 컬럼이 들어오면 자동으로 최적의 인덱스 활용*/
-CREATE INDEX ix_board_searchPos ON board (searchPos DESC);/*내림차순으로 정렬된 인덱스 생성*/
+/*내림차순으로 정렬된 인덱스 생성*/
+CREATE INDEX ix_board_searchPos ON board (searchPos DESC);
 
 
 /*자동증가 시퀀스*/
