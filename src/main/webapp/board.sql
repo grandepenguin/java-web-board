@@ -28,7 +28,7 @@ INCREMENT BY 1;
 
 /*댓글 테이블*/
 CREATE TABLE boardComment(
-boardNum NUMBER,/*Board테이블의 Num참조*/
+boardNum NUMBER,/*board테이블의 num참조*/
 commentId NUMBER,/*댓글 순서*/
 refId NUMBER,/*대댓글이 참조하는 id*/
 refOrder NUMBER,/*대댓글 순서*/
